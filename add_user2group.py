@@ -8,8 +8,8 @@ def add_user_to_group():
     print("The list should be separated by spaces, for example:\r\n group1 group2 group3")
     print("The available groups are:\r\n " + str(output))
     chosenGroups = str(input("Groups: "))
-    output = output.split(" ")
-    chosenGroups = chosenGroups.split(" ")
+    output = str(output).split(" ")
+    chosenGroups = str(chosenGroups).split(" ")
     print("Add To:")
     found = True
     groupString = ""
